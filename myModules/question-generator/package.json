@@ -1,0 +1,11 @@
+{
+  "name": "question-generator",
+  "version": "1.0.0",
+  "description": "A module that can generate n length algerba questions with the answer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wisdom Ogwu",
+  "license": "ISC"
+}

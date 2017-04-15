@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Algebra</title>
+	<link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="nav">
+		Algebra
+	</div>
+
+	<div class="body">
+		<div class="question-arena">
+			<div class="question"></div>
+			<div class="answer"></div>
+			<input type="text" class="user-input"/>
+			<div class="status default"></div>
+			<div class="count"></div>
+		</div>
+		<div class="game-board">
+			<div class="score"></div>
+			<div class="settings">
+				<input type="text" placeholder="How long should the question be" size=31 id="amount">
+				<button id="start">Start</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="/javascripts/view.js"></script>
+	<script type="text/javascript" src="/javascripts/model.js"></script>
+	<script type="text/javascript" src="/javascripts/controller.js"></script>
+	<script type="text/javascript" src="/javascripts/events.js"></script>	
+</body>
+</html>
